@@ -1,0 +1,216 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-size: 1.5vw;
+    background-color: #feffdb;
+}
+
+#logo {
+    margin: 0px;
+    padding: 8px;
+    font-family: "Fredoka One", sans-serif;
+    width: 16%;
+    text-shadow: 
+        -2px -2px 0 rgb(228, 108, 43), 
+        2px -2px 0 rgb(228, 108, 43), 
+        -2px 2px 0 rgb(228, 108, 43), 
+        2px 2px 0 rgb(228, 108, 43); 
+}
+
+ul {
+    margin: 0px;
+}
+
+body > header {
+    background-color: #ff8b00;
+    color: white;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 10px;
+    margin: 20px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#main-content > div {
+    width: 90%;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body > footer {
+    background-color: #ff8b00;
+    display: flex;
+}
+
+#unique-image {
+    border-radius: 0%;
+}
+img {
+    border-radius: 50%;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+
+#footer-ul > div > li > a{
+    color: white;
+    text-decoration: none;
+}
+
+#logo2 {
+    margin: 0px;
+    padding: 8px;
+    color: white;
+    font-family: "Fredoka One", sans-serif;
+    width: 16%;
+    text-shadow: 
+        -2px -2px 0 rgb(228, 108, 43), 
+        2px -2px 0 rgb(228, 108, 43), 
+        -2px 2px 0 rgb(228, 108, 43), 
+        2px 2px 0 rgb(228, 108, 43); 
+}
+
+/* Style for the sidebar */
+aside {
+    background-color: #ffc60b; /* Light background color */
+    border: 1px solid #ccc; /* Add a subtle border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Space inside the sidebar */
+    margin: 20px 0; /* Space around the sidebar */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Style for section headings */
+aside h4 {
+    font-family: 'Fredoka One', sans-serif; /* Using your chosen font */
+    color: #444444; /* Darker text color for headings */
+    margin-bottom: 10px; /* Space below headings */
+}
+
+/* Style for the list items */
+aside ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+}
+
+/* Style for links */
+aside a {
+    text-decoration: none; /* Remove underline from links */
+    color: #444444; /* Link color */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+/* Change link color on hover */
+aside a:hover {
+    color: #feffdb; /* Darker link color on hover */
+}
+
+/* Style for individual list items */
+aside li {
+    margin-bottom: 8px; /* Space between list items */
+}
+
+blockquote {
+    color: #ff8b00;
+}
+
+h2 {
+    font-family: 'Fredoka One', cursive; /* Apply Fredoka One font to all article headings */
+    color: #ffb300;                 
+}
+
+img {
+    display: block;           /* Make the image a block element */
+    margin-left: auto;       /* Automatically adjust left margin */
+    margin-right: auto;      /* Automatically adjust right margin */
+    max-width: 100%;         /* Ensure the image is responsive */
+    height: auto;            /* Maintain aspect ratio */
+}
+
+article footer {
+    margin-bottom: 3em;  /* Adds 4 lines of space below the footer */
+}
+.center-link {
+    display: block;          /* Makes the link a block element */
+    text-align: center;     /* Centers the text inside the block */
+    margin: 0 auto;        /* Auto margin for centering */
+    width: fit-content;     /* Adjusts the width to fit the content */
+}
+
+article:first-of-type {
+    margin-top: 5em;  /* Creates 10 lines of space above the first article */
+}
+
+article {
+    border: 2px solid orange;        /* Orange line border */
+    border-radius: 10px;            /* Rounded edges */
+    padding: 15px;                  /* Optional: Adds space inside the border */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Adds a slight shadow for depth */
+    margin-bottom: 20px;            /* Space below each article */
+}
+
+form label {
+    display: block;                 /* Makes each label take a full line */
+    margin-bottom: 10px;           /* Adds space below each label */
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select,
+form textarea {
+    margin-bottom: 15px;           /* Adds space below each input field */
+}
+
+form .checkbox-group {
+    display: flex;                 /* Aligns checkboxes in a row */
+    margin-bottom: 15px;           /* Adds space below the checkbox group */
+}
+
+form input[type="checkbox"] {
+    margin-right: 10px;            /* Adds space between checkboxes */
+}
